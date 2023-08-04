@@ -1,0 +1,96 @@
+main{
+  width: 100%;
+  /* background: blue; */
+}
+main .promo__section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+}
+main .promo__section .promo__about{
+  width: 100%;
+  max-width: 824px;
+  /* height: 600px; */
+  background-image: url(../Img/promo-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position-x: right;
+  display: flex;
+  padding: 46px 0 92px 0;
+  /* align-items: center; */
+}
+main .promo__section .promo__about .promo__info{
+  width: 100%;
+  max-width: 635px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  /* background: red; */
+  background-image: url(../Img/bg-line.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+main .promo__section .promo__about .promo__info .info{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 57px;
+}
+main .promo__section .promo__about .promo__info .info h1{
+  color: #172339;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: -1px;
+}
+main .promo__section .promo__about .promo__info .info p{
+  width: 350px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 0.1px;
+  color: #49566D;
+}
+main .promo__section .promo__about .promo__info button{
+  width: 100%;
+  max-width: 256px;
+  background: #172339;
+  border: none;
+}
+main .promo__section .promo__about .promo__info button a{
+  font-size: 18px;
+  letter-spacing: -0.18px;
+  color: #FAF8F6;
+}
+main .promo__section .promo__about .promo__info button:hover{
+  background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+main .promo__section .promo__status{
+  width: 100%;
+  max-width: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 63px;
+}
+main .promo__section .promo__status li{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+main .promo__section .promo__status li strong{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #172339;
+}
+main .promo__section .promo__status li span{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: #49566D;
+}

@@ -1,0 +1,32 @@
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: red; */
+  /* padding-top: 50px; */
+}
+button{
+  width: 100%;
+  max-width: 220px;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #172339;
+  cursor: pointer;
+  background: none;
+}
+button a{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.16px;
+  text-decoration: none;
+  color:#172339;
+}
+button:hover{
+  background: #172339;
+}
+button:hover a{
+  color: #FAF8F6;
+}

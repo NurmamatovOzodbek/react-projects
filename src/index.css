@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #FAF8F6;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+#root{
+  padding-top: 50px;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
